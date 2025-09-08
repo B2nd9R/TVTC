@@ -1,0 +1,75 @@
+/* خلفية الصفحة وخط عام */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* الهيدر */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* الروابط في الناف */
+nav {
+    background: #34495e;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* العناوين */
+h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0 10px;
+    color: #2c3e50;
+}
+
+/* الفقرات */
+p {
+    margin: 10px 20px;
+}
+
+/* القوائم */
+ul, ol {
+    margin: 15px 40px;
+}
+
+/* الصورة */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* القسم */
+section {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* الوسائط */
+audio, video {
+    display: block;
+    margin: 20px auto;
+}
+
+/* الكانفس والـ SVG */
+canvas, svg {
+    display: block;
+    margin: 20px auto;
+}
